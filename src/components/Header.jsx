@@ -1,11 +1,36 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
-const Header = () => {
+function Header() {
   return (
-    <div>
-      
-    </div>
-  )
+
+    <header className="bg-gray-900 text-white shadow-lg">
+      <nav className="max-w-7xl mx-auto flex justify-between items-center p-6">
+
+        <h1 className="text-2xl font-bold">
+          Luxury Cars
+        </h1>
+
+        <div className="flex gap-6">
+          <Link to="/" className="hover:text-yellow-400">
+            Home
+          </Link>
+
+          <Link to="/carros" className="hover:text-yellow-400">
+            Carros
+          </Link>
+
+          <Link to="/contato" className="hover:text-yellow-400">
+            Contato
+          </Link>
+
+          <Link to="/login" className="hover:text-yellow-400">
+            Login
+          </Link>
+        </div>
+
+      </nav>
+    </header>
+  );
 }
 
 export default Header
