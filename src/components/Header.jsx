@@ -11,19 +11,19 @@ function Header() {
         </h1>
 
         <div className="flex gap-6">
-          <Link to="/" className="hover:text-purple-950">
+          <Link to="/" className="hover:text-purple-400">
             Home
           </Link>
 
-          <Link to="/carros" className="hover:text-purple-950">
+          <Link to="/carros" className="hover:text-purple-400">
             Carros
           </Link>
 
-          <Link to="/contato" className="hover:text-purple-950">
+          <Link to="/contato" className="hover:text-purple-400">
             Contato
           </Link>
 
-          <Link to="/login" className="hover:text-purple-950">
+          <Link to="/login" className="hover:text-purple-400">
             Login
           </Link>
         </div>
